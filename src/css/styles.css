@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap");
+
+* {
+  padding: 0px;
+  outline: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+  background-image: url(../img/IMG-BG.png);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+body main {
+  display: flex;
+  width: 1216px;
+  height: 858px;
+  padding: 60px;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+
+  margin: auto;
+  margin-top: calc(100vh-10);
+
+  text-align: center;
+  color: white;
+
+  border-radius: 32px;
+  border: 1px solid var(--gray-04, #334155);
+  background: rgba(2, 6, 23, 0.8);
+}
+
+main section h2 {
+  font-size: 32px;
+  font-weight: 600;
+
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+
+main section #cards {
+  display: flex;
+  width: 608px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+main section #cards .card {
+  display: flex;
+  padding: 16px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+
+  border-radius: 16px;
+  border: 1px solid var(--gray-04, #334155);
+  background: var(--gray-06, #0f172a);
+
+  color: var(--gray-02, #e2e8f0);
+  font-family: IBM Plex Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  cursor: pointer;
+}
+
+main section #cards .card .content-text-icon {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+#divider {
+  width: 1096px;
+  height: 1px;
+  background: #334155;
+}
+
+main #mensage-bar {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+
+  margin-top: 40px;
+}
+
+main #mensage-bar > img{
+    cursor: pointer;
+}
+
+main #mensage-bar #content {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    gap: 16px;
+    flex: 1 0 0;
+    
+
+  border-radius: 16px;
+  border: 1px solid var(--gray-04, #334155);
+  background: var(--gray-06, #0f172a);
+
+  height: 60.19px;
+}
+
+main #mensage-bar #content input {
+  flex: 1 0 0;
+  font-size: 19px;
+  
+  background: var(--gray-06, #0f172a);
+  border: none;
+
+  color: white;
+}
+main #mensage-bar #content img{
+    height: 32px;
+    width: 32px;
+
+    cursor: pointer;
+}
